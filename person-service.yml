@@ -5,13 +5,4 @@ spring:
    cloud: 
      config: 
         uri:http://localhost:8888
-     profiles:
-        active:database
-   data:
-     mongodb:
-        uri:mongodb://localhost:27017/BankDatabase
-managment: 
-   endpoints:
-       web: 
-         exposure: 
-             include:*
+   
