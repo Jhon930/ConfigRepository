@@ -1,2 +1,4 @@
 server:
     port: ${PORT:8070}
+    
+message: Account configuration server is alive!
