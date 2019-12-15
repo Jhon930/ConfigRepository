@@ -1,14 +1,6 @@
 server:
     port: ${PORT:8008}
-    
-spring:
-    data:
-      mongodb:
-        uri: mongodb://localhost:27017/BankDatabase
-    profiles:
-        active:database    
-      
-    
+ 
 message: Person configuration server is alive!
 
 
