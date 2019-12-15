@@ -3,4 +3,4 @@ global-message: Configuration server is alive!
 spring:
    data:
      mongodb:
-        uri:mongodb://localhost:27017/BankDatabase
+        uri: mongodb://localhost:27017/BankDatabase
