@@ -2,14 +2,17 @@ server:
   port: 8082
 
 spring:
-  cloud:
-    gateway:
-      routes:
-      - id: service_person
-        uri: http://localhost:8008/
-        predicates:
-        - Path=/person/**
-      - id: service_account
-        uri: http://localhost:8070/
-        predicates:
-        - Path=/account/**
+  application:
+     name: cloudgateway
+# routing for service 1
+zuul:
+  routes:
+    service_1:
+       path: /api/service_1/**
+    service_1:
+       url: http://localhost:8080/
+# routing for service 2
+    service_2:
+       path: /api/service_2/**
+    service_2:
+       url: http://localhost:8070/  
