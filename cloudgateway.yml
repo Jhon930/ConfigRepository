@@ -10,7 +10,7 @@ zuul:
     service_1:
        path: /api/service_1/**
     service_1:
-       url: http://localhost:8080/
+       url: http://localhost:8008/
 # routing for service 2
     service_2:
        path: /api/service_2/**
