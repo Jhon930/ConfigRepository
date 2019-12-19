@@ -1,3 +1,0 @@
-server:
-    port: 8073
-message: Producer configuration server is alive!
