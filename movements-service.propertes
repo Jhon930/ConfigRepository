@@ -1,0 +1,3 @@
+server.port:8073
+config.base.endpoint=http://localhost:8073/api/movement
+spring.data.mongodb.uri=mongodb://localhost:27017/MovementsDatabase
